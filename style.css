@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+.manu{
+    width: 100%;
+    background: #142b47;
+    overflow: auto;
+    
+    
+}
+.manu ul{
+    margin: 0;
+    padding: 0;
+
+    line-height: 60px;
+   
+    
+}
+.manu ul li{
+    list-style: none;
+    float: left;
+}
+.manu ul li a{
+    text-decoration: none;
+    background: #142b47;
+    width: 130px;
+    display:block;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 18px; 
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+
+}
+.manu ul li a:hover{
+    color: #fff;
+    font-size: 19px;
+    opacity: 0.5;
+   
+}
+.search-bar{
+    margin-top: 15px;
+    float: right;
+    margin-right: 100px;
+}
+input[type=text]{
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+button{
+    float: right;
+    background: orange;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+    appearance: none;
+
+}
